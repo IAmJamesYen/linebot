@@ -111,7 +111,7 @@
 			$ch = curl_init($url);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 			curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-				'Authorization: Bearer cCubKq3mCMRx0RcZcoHLDP0r38pPEn5ZkqgTRT0c4fexsmrtN52Fs5kGkQxZYmED5pM1iDsG5M+1si8PS5dgKDs8xF6Qw0DNdddVrMkhc9WJmD1pRVtGqwY4rSNS+/AgkfGoI10hRps8GI//6k7f9AdB04t89/1O/w1cDnyilFU=',
+				'Authorization: Bearer usKtkP3/syVWHqYd3ZMgjcG3xR3jf9tCquF9Sm75xgDKT04OXRZxtaJl19I5WM0UIWHt3Y5bbrEUSjAuMkW38+MLvTdqfqCsI5RiFDI57WJyOus7PcszC6+xQOtRz5wlYmFf2sepskoqf9gmaU9TIgdB04t89/1O/w1cDnyilFU=',
 			));
 				
 			$json_content = curl_exec($ch);
